@@ -1,0 +1,89 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color   : #2f3035;
+    background-image   : url('./images/nerfee-mirandilla-V8-WiXIoYOU-unsplash.jpg');
+    background-size    : cover;
+    background-repeat  : no-repeat;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin-left : auto;
+    margin-right: auto;
+    width       : 1024px;
+}
+
+header {
+    height    : 118px;
+    text-align: left;
+    padding-left: 50px;
+}
+
+nav {
+    text-align       : center;
+    background-color : rgba(0, 0, 0, 0.338);
+    border-radius    : 50px;
+    padding-top: 14px;
+    padding-bottom   : 14px;
+    /* display       : flex;
+    justify-content  : space-around;  */
+     /* background-color: rgba(144, 238, 144, 0.301);*/
+}
+
+main {
+    height     : 270px;
+    text-align : center;
+    padding    : 10px 240px 80px 240px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.637);
+    margin: 50px 0;
+    padding: 10px 0;
+}
+
+h1 {
+    font-size: 76px;
+    color    : white;
+}
+
+p {
+    font-size: 18px;
+    color    : white;
+}
+
+main a {
+    /* text-decoration: none; */
+    color      : white;
+    font-size  : 18px;
+    transition : all 0.3s ease;
+    border     : transparent;
+    padding    : 10px;
+    font-weight: 1000;
+}
+
+main a:hover {
+    transform    : scale(1.1);
+    transition   : all 0.3s ease;
+    border       : thin solid green;
+    border-radius: 40px;
+    font-size    : 21px;
+    text-shadow: 0 0 30px green;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    padding: 0 10px;
+}
+
+footer p{
+    color: white    ;
+    font-size: 12px;
+    text-align: center;
+}
