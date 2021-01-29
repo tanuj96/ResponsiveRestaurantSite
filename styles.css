@@ -4,7 +4,7 @@ html {
 
 body {
     background-color   : #2f3035;
-    background-image   : url('./images/nerfee-mirandilla-V8-WiXIoYOU-unsplash.jpg');
+    background-image   : url('./images/sam-hojati-R2t3xrun2Bk-unsplash.jpg');
     background-size    : cover;
     background-repeat  : no-repeat;
     background-position: center;
@@ -19,7 +19,7 @@ body {
 
 header {
     height    : 118px;
-    text-align: left;
+    text-align: center;
     padding: 0 50px;
 }
 
@@ -41,9 +41,12 @@ main {
     margin: 20px 0;
 }
 
+iframe{
+    margin: 20px 0;
+}
 footer {
     background-color: rgba(0, 0, 0, 0.637);
-    margin: 10px 0;
+    margin: 20px 0;
     padding: 10px 0;
 }
 
