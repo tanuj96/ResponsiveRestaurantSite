@@ -20,7 +20,7 @@ body {
 header {
     height    : 118px;
     text-align: left;
-    padding-left: 50px;
+    padding: 0 50px;
 }
 
 nav {
@@ -35,25 +35,44 @@ nav {
 }
 
 main {
-    height     : 270px;
+    height     : 390px;
     text-align : center;
-    padding    : 10px 240px 80px 240px;
+    padding    : 40px 240px 40px 240px;
+    margin: 20px 0;
 }
 
 footer {
     background-color: rgba(0, 0, 0, 0.637);
-    margin: 50px 0;
+    margin: 10px 0;
     padding: 10px 0;
 }
 
 h1 {
     font-size: 76px;
     color    : white;
+    margin: 35px 0;
+}
+
+input{
+    background-color: rgba(0, 0, 0, 0.637);
+    outline: none;
+    border: none;
+    width: 500px;
+    height: 30px;
+    color: white;
+    border-radius: 50px;
+    padding: 5px 10px;
+    text-align: center;
 }
 
 p {
     font-size: 18px;
     color    : white;
+    margin: 30px;
+}
+
+input:hover{
+    text-shadow:  0 0 40px green;
 }
 
 main a {
